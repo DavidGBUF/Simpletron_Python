@@ -1,4 +1,4 @@
-#Operaões Entrada e saída
+#Operações Entrada e saída
 Read = 10 #Ler uma palavra do teclado e armazena na célula do operando
 Write =11 #Escreve o valor armazenado na célula do operando na tela
 
@@ -67,7 +67,7 @@ while i != 43:
         if 0<=Operando<=99:
             i = Operando
             continue
-    if codigo == Branchzero:
+    if codigo == Branchzero: 
         if 0<=Operando<=99 and ACC==0:
             i = Operando
             continue
@@ -79,6 +79,7 @@ while i != 43:
         print('Programa Encerrado')
         break
     i+=1
+print('Programa Encerrado')
 
     
 
